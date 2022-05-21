@@ -18,7 +18,6 @@ class GUI:
 		name = tk.Label(root, text="Mike Chase")
 		name.grid(row=10, column=10)
 		root.mainloop()
-		print("Done")
 
 	def f(self):
 		"""
@@ -27,5 +26,5 @@ class GUI:
 		:rtype:
 		"""
 
-		return "hello world"
+		return "Success: you called tkinterGUI.GUI.f()"
 
